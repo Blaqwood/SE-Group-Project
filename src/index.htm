@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
     <head>
         <meta charset="UTF-8">
-        <title>Colonize some bitches</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="planet/planet.css">
+        <meta name="viewport"   content="width=device-width, initial-scale=1">
+        <base href="index.htm">
+
+        <!--import CSS stylesheets-->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/planet.css">
+        <link rel="stylesheet" href="styles/w3.css">
+        <link rel="stylesheet" href="styles/stars.css">
+        <link rel="stylesheet" href="styles/button.css">
+
+        <!--<link rel="icon" class="fa-solid fa-solar-system">-->
+
+        <!--Font awesome icons-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 <body>
     <div>
+        <header id="header" class="w3-round">
+            <p class="w3-text-white w3-text-">Socialize with some bitches</p>
+        </header>
+
         <div class="w3-card-4 w3-container">
             <h1 class="w3-text-white"></h1>
         </div>
-        <div class="w3-container">
+        <section>
+        <div class="">
             <div class="planet">
                 <div class="wrap">
                     <div class="background"></div>
@@ -21,7 +35,22 @@
                 </div>
                 <div class="mask"></div>
             </div>
+            <div class="box-1 w3-display-middle">
+                <div onclick="redirect()" class="btn btn-one">
+                  <span>HOVER ME</span>
+                </div>
+            </div>
+        <p class="w3-text-white">joe mama</p>
+
         </div>
+        </section>
     </div>
+    <i id="stt" class="w3-display-bottomright fa fa-beat">
+    </i>
+    <div class=" w3-bottom w3-panel w3-leftbar w3-border-blue">
+        <small class="w3-text-light-grey">Made by group 1</small>
+      </div>
+    <script src="scripts/redir.js"></script>
+    <script src="scripts/stt.js"></script>
 </body>
 </html>
